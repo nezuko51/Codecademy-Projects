@@ -120,7 +120,7 @@ print(daily_sales_replaced)
 
 
 #Now we can split the string into a list of each individual transaction.
-Split daily_sales_replaced around commas and save it to a new list daily_transactions.
+#Split daily_sales_replaced around commas and save it to a new list daily_transactions.
 daily_transactions = []
 for i in daily_sales_replaced:
   daily_transactions = i.split(',')
