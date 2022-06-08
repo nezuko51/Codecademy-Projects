@@ -241,10 +241,13 @@ print('\n')
 # Use .format() to print desired output that combines typecasted count output and the color
 colors = ['red', 'yellow', 'green','white', 'black','blue', 'purple']
 
+print('Output:')
 for i in range(len(colors)):
   for j in thread_sold_clean:
     count = color_count(str(colors[i]))
   print("\nThread Shed sold {} threads of {} thread today".format(str(count), colors[i],'\n'))
+
+print('\n')
 
 
   
